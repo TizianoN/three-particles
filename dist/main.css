@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.webgl
+{
+    cursor: grab;
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+a{
+    position: absolute;
+    z-index: 1;
+    right: 5px;
+    top: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 8px;
+}
+h1 {
+    padding-top: calc(1.2vw);
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(100vw / 14);
+    text-indent: calc(100vw / 14);
+    letter-spacing: calc(100vw / 14);
+    line-height: calc(100vw / 14);
+    font-weight:100;
+    color: #fff;
+    text-align: center;
+}
+span {
+    width:100%;
+}
+.rotate {
+    transform: rotate(180deg) scaleX(-1);
+    display: inline-block;
+    /* border-bottom: .1rem solid; */
+    font-size: calc(100vw / 12);
+    text-indent: calc(100vw / 12);
+    letter-spacing: calc(100vw / 12);
+    line-height: calc(100vw / 12);
+}
+@media only screen and (max-width: 600px) {
+    /* h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    } */
+}
+
+/*# sourceMappingURL=main.css.map*/
